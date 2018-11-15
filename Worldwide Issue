@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <style>
+  body {background-color: #919b34;}
+
+  </style>
+
+ </style>
+</head>
+
+<body>
+  <h1>Who wants some cake mushrooms?
+  <p>I know there is a lot of controversy over this, but 123 just makes sense.
+  <img src="https://goodfoodseeking.files.wordpress.com/2014/10/image13.jpg"
+  <!--
+
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+
+  -->
+
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#lick">Lick</a></li>
+  <li><a href="#play">Play</a></li>
+  <li><a href="#germainium">Germainium</a></li>
+  <li><a href="#sans">Sans</a></li>
+</ul>
+
+</body>
+</html>
