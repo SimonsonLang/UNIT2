@@ -1,19 +1,55 @@
 <!DOCTYPE html>
-<html lang"en">
-
+<html>
 <head>
+<style>
+body {
+    margin: 0;
+}
 
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="style.ccs">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
 </style>
 </head>
 <body>
+
 <ul>
-  <li><a href="#World Hunger Home Page">World Hunger Home Page</a></li>
-  <li><a href="#About the Issue">About The Issue</a></li>
-  <li><a href="#Different Orginizations That Help">Different Orginizations That Help</a></li>
-  <li><a href="#How You Can Help">How you can Help</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#World Hunger Organizations">World Hunger Organizations</a></li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#How You Can Help">How You Can Help</a></li>
 </ul>
 
-<p>World Hunger has been a problem since the begining of time. But Only until now we have the technologyto help the people starving. Now people around the world are trying to help the hungry through charity orginizations  </p>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <h2>World Hunger</h2>
+  <p>Everyday, people around the world go to bed hungry, but with the help of orginizations dedicated to helping these people, there is change happening.</p>
+  
+  <p></p>
+</div>
+
+</body>
+</html>
